@@ -36,7 +36,7 @@ git clone git@github.com:riscv/riscv-pk.git
 cd riscv-pk
 mkdir build
 cd build
-../configure --prefix=$RISCV --host=riscv64-unknown-elf
+../configure --prefix=$RISCV --host=riscv64-unknown-linux-gnu
 make
 make install
 ```
