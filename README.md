@@ -32,6 +32,8 @@ make install
 ```
 ## RISC-V Proxy Kernel and Boot Loader
 ```
+git clone git@github.com:riscv/riscv-pk.git
+cd riscv-pk
 mkdir build
 cd build
 ../configure --prefix=$RISCV --host=riscv64-unknown-elf
@@ -51,3 +53,4 @@ riscv64-unknown-linux-gnu-g++  -march=rv64gcv -mabi=lp64d  -O3 gray.cpp  -o gray
 # run gray
 spike --isa=rv64gcv pk gray
 ```
+
