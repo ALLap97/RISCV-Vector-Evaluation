@@ -3,7 +3,7 @@
 ## RISC-V V0.8 GNU Compiler Toolchain
 ### Getting the sources
 ```
-git clone -b rvv-0.8 git@github.com:riscv/riscv-gnu-toolchain.git
+git clone -b rvv-0.8 https://github.com/riscv/riscv-gnu-toolchain.git
 cd riscv-gnu-toolchain
 git submodule update --init --recursive
 ```
@@ -22,7 +22,7 @@ make install
 ## Spike
 ```
 apt-get install device-tree-compiler
-git clone git@github.com:riscv/riscv-isa-sim.git
+git clone https://github.com/riscv/riscv-isa-sim.git
 cd riscv-isa-sim
 mkdir build
 cd build
@@ -32,7 +32,7 @@ make install
 ```
 ## RISC-V Proxy Kernel and Boot Loader
 ```
-git clone git@github.com:riscv/riscv-pk.git
+git clone https://github.com/riscv/riscv-pk.git
 cd riscv-pk
 mkdir build
 cd build
